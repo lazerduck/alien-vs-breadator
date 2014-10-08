@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 35498a2f5e9e28d469b509ad09b701fd
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Box001
+    100008: Box002
+    100010: Box003
+    100012: Box004
+    100014: Box005
+    100016: Box007
+    100018: Box008
+    100020: Box009
+    100022: Box010
+    100024: Group002
+    100026: Group004
+    100028: Hose001
+    100030: Hose002
+    100032: Line001
+    100034: Line001 1
+    100036: Line002
+    100038: Line003
+    100040: Line004
+    100042: Line005
+    100044: Line006
+    100046: //RootNode
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Box001
+    400008: Box002
+    400010: Box003
+    400012: Box004
+    400014: Box005
+    400016: Box007
+    400018: Box008
+    400020: Box009
+    400022: Box010
+    400024: Group002
+    400026: Group004
+    400028: Hose001
+    400030: Hose002
+    400032: Line001
+    400034: Line001 1
+    400036: Line002
+    400038: Line003
+    400040: Line004
+    400042: Line005
+    400044: Line006
+    400046: //RootNode
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box005
+    2300010: Box007
+    2300012: Box008
+    2300014: Box009
+    2300016: Box010
+    2300018: Hose001
+    2300020: Hose002
+    2300022: Line001
+    2300024: Line001 1
+    2300026: Line002
+    2300028: Line003
+    2300030: Line004
+    2300032: Line005
+    2300034: Line006
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box005
+    3300010: Box007
+    3300012: Box008
+    3300014: Box009
+    3300016: Box010
+    3300018: Hose001
+    3300020: Hose002
+    3300022: Line001
+    3300024: Line001 1
+    3300026: Line002
+    3300028: Line003
+    3300030: Line004
+    3300032: Line005
+    3300034: Line006
+    4300000: Box009
+    4300002: Box008
+    4300004: Box007
+    4300006: Box010
+    4300008: Line001
+    4300010: Line003
+    4300012: Line004
+    4300014: Line005
+    4300016: Line006
+    4300018: Box003
+    4300020: Hose001
+    4300022: Hose002
+    4300024: Box001
+    4300026: Line001
+    4300028: Box002
+    4300030: Line002
+    4300032: Box005
+    4300034: Box004
+    7400000: idle
+    7400002: reload
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: .100000001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Box009
+        weight: 1
+      - path: Bone001/Bone002/Box008
+        weight: 1
+      - path: Bone001/Box007
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box010
+        weight: 1
+      - path: Group002
+        weight: 1
+      - path: Group002/Box003
+        weight: 1
+      - path: Group002/Hose001
+        weight: 1
+      - path: Group002/Hose002
+        weight: 1
+      - path: Group004
+        weight: 1
+      - path: Group004/Box004
+        weight: 1
+      - path: Group004/Box005
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line001 1
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Line004
+        weight: 1
+      - path: Line005
+        weight: 1
+      - path: Line006
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: reload
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone001
+        weight: 1
+      - path: Bone001/Bone002
+        weight: 1
+      - path: Bone001/Bone002/Bone003
+        weight: 1
+      - path: Bone001/Bone002/Bone003/Box009
+        weight: 1
+      - path: Bone001/Bone002/Box008
+        weight: 1
+      - path: Bone001/Box007
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: Box010
+        weight: 1
+      - path: Group002
+        weight: 1
+      - path: Group002/Box003
+        weight: 1
+      - path: Group002/Hose001
+        weight: 1
+      - path: Group002/Hose002
+        weight: 1
+      - path: Group004
+        weight: 1
+      - path: Group004/Box004
+        weight: 1
+      - path: Group004/Box005
+        weight: 1
+      - path: Line001
+        weight: 1
+      - path: Line001 1
+        weight: 1
+      - path: Line002
+        weight: 1
+      - path: Line003
+        weight: 1
+      - path: Line004
+        weight: 1
+      - path: Line005
+        weight: 1
+      - path: Line006
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
